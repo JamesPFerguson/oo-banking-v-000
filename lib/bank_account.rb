@@ -1,3 +1,5 @@
+require_relative 'transfer.rb'
+
 class BankAccount
 
 attr_accessor :balance, :status
@@ -25,7 +27,5 @@ attr_reader :name
   def close_account
     self.status = "closed"
   end
-
-
 
 end
