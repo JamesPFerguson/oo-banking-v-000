@@ -18,6 +18,9 @@ attr_reader :name
     self.balance
   end
 
+  def valid?
+    status == "open" && self.balance > 0 ? true : false
+  end
 
 
 
