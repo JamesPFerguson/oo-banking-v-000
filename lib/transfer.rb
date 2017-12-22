@@ -8,4 +8,6 @@ class Transfer
   def initialize(sender, receiver, amount)
     @status = "pending"
     @amount = amount
+  end
+
 end
